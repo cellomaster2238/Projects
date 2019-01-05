@@ -39,4 +39,17 @@ def primes():
         else:
             break
 
-primes()
+# primes()
+
+def primes_until_interrupt(index = 2):
+    # Prints primes until interrupted (ctrl-c)
+    # User may specify starting index
+    try:
+        while True:
+            if is_prime(index) == True:
+                print(index)
+            index += 1
+    except KeyboardInterrupt:
+        pass
+
+# primes_until_interrupt(111833)
