@@ -1,4 +1,4 @@
-I am completing this projects using Python.
+I am completing this list of projects using Python.
 
 Mega Project List
 ========
